@@ -219,7 +219,7 @@
       },
       success: function(response) {
         alert("作答完畢");
-        //window.close();
+        window.close();
       },
       error: function(){alert("失敗！")}
     });
